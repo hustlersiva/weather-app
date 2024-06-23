@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js" defer></script>
+</head>
+<body>
+    <h1 class="heading">Weather App</h1>
+    <div class="flex">
+        <div class="card">
+            <div class="searchoptins">
+                <input class="searchbar" type="text" placeholder="Enter city name">
+                <button class="searchimg"><img src="./images/search.png" height="22px" alt="Search"></button>
+            </div>
+            <div class="error-message" style="color: Black; display: none;">City is not valid. Enter a valid city name.</div>
+            <div class="condtions">
+                <img class="weathericon" src="./images/weather-change (1).png" alt="" height="200px">
+            </div>
+            <div class="celcius">Celsius</div>
+            <div class="cityname">city</div>
+            <div class="other">
+                <div class="humidity">
+                    <img src="./images/humidity.png" alt="Humidity">
+                    <div class="insideflex">
+                        <h4 class="hvalue"></h4>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="speed">
+                    <img src="./images/wind.png" alt="Wind Speed">
+                    <div class="insideflex">
+                        <h4 class="svalue">km/h</h4>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

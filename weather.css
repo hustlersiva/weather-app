@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:; */
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 2px  4px rgba(255, 255, 255, 0.495) ;
+}
+/* Define the Poppins font family */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-SemiBold.ttf') format('truetype'); /
+}
+
+body{
+    /* background-color: hsla(0, 0%, 4%, 0.836); */
+    /* background-color: hsl(0, 0%, 13%); */
+    background: linear-gradient(40deg,#0b6a68,#c1702d88);
+    min-height: 100vh;
+}
+/* .heading{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color:#c1702d88
+} */
+.heading {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #0b6a68, #c1702d88);
+    -webkit-background-clip: text;
+    color:transparent;
+    font-size: 2em; /* Adjust size as needed */
+    text-shadow: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    /* background-color: rgba(122, 219, 122, 0.619); */
+    /* background: linear-gradient(-100deg,#00feba88,#4fda64); */
+    /* background-image: url('./images/streetlight-cloudy-day_23-2148098556.jpg'); */
+    background-position: 0%;
+    height: 525px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}.searchoptins{
+    /* border:2px solid black; */
+    margin-top: 20px;
+    width: 350px;
+    height: 38px;
+    display: flex;
+    justify-content:space-between;
+    /* margin-left: px; */
+
+    
+}
+.searchbar{
+    text-align:center;
+    width: 250px;
+    border-radius: 20px;
+    padding: 4px;
+    border: none;
+    color: black;
+    /* background-color:white; */
+    outline: 0;
+    font-size: 20px;
+
+
+}
+
+.searchimg{
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: 2px;
+    /* background-color:rgba(183, 238, 183, 0.138); */
+    cursor: pointer;
+
+
+}
+.searchimg img{
+    /* background-color: black; */
+    padding: 3px;
+    margin-top: 3px;
+    color: none;
+
+}
+
+.condtions{
+    /* background-color: #ccc; */
+    padding: 5px;
+    margin-right: 50px;
+  
+    
+}
+.celcius{
+    /* border:2px solid black; */
+    /* padding: 20px; */
+    font-size: 5ch;
+    margin-top: -15px;
+    margin-right: 40px;
+}
+.cityname{
+    font-size: 4cqb;
+    /* border: 2px solid black; */
+    padding: 6px;
+    margin-top: -40px;
+    margin-right: 35px;
+    /* font-weight: 500; */
+
+}
+.other{
+    display: flex;
+    /* background-color:black; */
+    color:#ccc;
+    width: 400px;
+    height: 40px;
+    align-items:  center;
+    justify-content:space-between;
+    margin-bottom: 25px;
+
+}
+.humidity{
+/* border: 2px solid black; */
+font-size: x-large;
+display: flex;
+
+/* justify-content: space-between; */
+}
+.speed{
+    /* border: 2px solid black; */
+font-size: x-large;
+display: flex;
+
+}
+
+.other h4,p{
+    /* text-align: center; */
+    /* font-style: italic; */
+    margin-left: 10px;
+    
+}
+.other img{
+    height:40px;
+
+}
+/* .other p{
+    font-size: 14px;
+    display: block
+} */
+ p{
+    font-size: 17px;
+ }
+
